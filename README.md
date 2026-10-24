@@ -11,6 +11,8 @@ as a git submodule (`engine\`). No emulator, no virtual machine.
 
 ## Status
 
+Update 2026-10-25 (engine `aa95168`): the scores are drawn again; they were empty boxes because `HYENA.TTF` is a symbol font, which is now mapped like Windows GDI does.
+
 The engine implements every feature of the original 7th Level Runtime Player, and the port starts from
 `T&PSHTPC.BIN`. Slingshooter has not been compared with the original game yet (only Upsy Daisy has been, screen by
 screen), so differences may remain. See the engine repository for the general status and the
