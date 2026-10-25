@@ -11,6 +11,8 @@ as a git submodule (`engine\`). No emulator, no virtual machine.
 
 ## Status
 
+Update 2026-10-25, engine `1674013`: sprite replacement (opcode 18) and immediate animation commands (builtin 5A) now behave like the original. This fixes Slingshooter: the purple berry splat was drawn at the centre of the screen instead of on the target.
+
 Update 2026-10-25 (engine `aa95168`): the scores are drawn again; they were empty boxes because `HYENA.TTF` is a symbol font, which is now mapped like Windows GDI does.
 
 The engine implements every feature of the original 7th Level Runtime Player, and the port starts from
